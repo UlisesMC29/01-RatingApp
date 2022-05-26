@@ -6,7 +6,16 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  resize: both;
+  overflow: auto;
+  display: flex;
 
+}
+
+.container-minicard{
+  padding: 80px;
+  display: flex;
+  background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
 }
 
 .star-image{
@@ -28,6 +37,7 @@
 }
 
 
+
 .miniCard {
   width: 412px;
   height: 416px;
@@ -38,6 +48,8 @@
   align-items: center;
   justify-content: center;
   padding: 0px;
+  resize: both;
+  overflow: auto; 
 
 }
 
@@ -64,6 +76,23 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.btn-li{
+
+  float: left;
+  text-align: center;
+  padding-top: 25px;
+  width: 30px;
+  height: 30px;
+  background: orange;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:7px;
+  padding:10px;  
+  color: white;
+
+}
 
 li{
   float: left;
