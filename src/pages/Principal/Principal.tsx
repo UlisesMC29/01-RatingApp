@@ -20,7 +20,6 @@ export const Principal = () => {
             document.getElementById('btn3')?.classList.remove('btn-li'),
             document.getElementById('btn4')?.classList.remove('btn-li'),
             document.getElementById('btn5')?.classList.remove('btn-li')
-            // console.log(numberSelect)
         )
     }
 
@@ -34,7 +33,6 @@ export const Principal = () => {
             document.getElementById('btn3')?.classList.remove('btn-li'),
             document.getElementById('btn4')?.classList.remove('btn-li'),
             document.getElementById('btn5')?.classList.remove('btn-li')
-            // console.log(numberSelect)
 
         )
     }
@@ -47,7 +45,6 @@ export const Principal = () => {
             document.getElementById('btn2')?.classList.remove('btn-li'),
             document.getElementById('btn4')?.classList.remove('btn-li'),
             document.getElementById('btn5')?.classList.remove('btn-li')
-            // console.log(numberSelect)
 
         )
     }
@@ -60,7 +57,6 @@ export const Principal = () => {
             document.getElementById('btn3')?.classList.remove('btn-li'),
             document.getElementById('btn2')?.classList.remove('btn-li'),
             document.getElementById('btn5')?.classList.remove('btn-li')
-            // console.log(numberSelect)
 
         )
     }
@@ -73,8 +69,6 @@ export const Principal = () => {
             document.getElementById('btn3')?.classList.remove('btn-li'),
             document.getElementById('btn4')?.classList.remove('btn-li'),
             document.getElementById('btn2')?.classList.remove('btn-li')
-            // console.log(numberSelect)
-
         )
     }
     //------------------------------------
