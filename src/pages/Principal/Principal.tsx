@@ -1,6 +1,7 @@
 // import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../Principal/principal.css';
+import starImg from '../../images/estrella.png';
 
 export let numberSelect = 0;
 
@@ -74,7 +75,7 @@ export const Principal = () => {
     //------------------------------------
 
     const selectionNum = () => {
-        return navigate("/selection")
+        return navigate("/01-ratingapp/selection")
     }
 
 
@@ -86,7 +87,7 @@ export const Principal = () => {
             <div className='container-minicard'>
                 <div className='miniCard'>
                     <div className='star-image'>
-                        <img className='star' src="src\images\estrella.png" alt="imagen de la estrella" />
+                        <img className='star' src={starImg} alt="imagen de la estrella" />
                     </div>
                     <div className='text-container'>
                         <h1 className='title-how'>How did we do?</h1>

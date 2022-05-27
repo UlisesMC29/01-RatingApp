@@ -1,4 +1,4 @@
-
+/* 
 .container-principal{
   background-color: #131518;
   padding: 7rem;
@@ -52,7 +52,7 @@
 .text-content{
   font-size: 15px;
   color: #969FAD;
-  /* position: absolute; */
+  position: absolute;
   padding-left: 30px;
   padding-right: 30px;
   text-align: justify;
@@ -107,4 +107,4 @@ button{
 button:hover{
   color: orange;
   background-color: white;
-}
+} */
