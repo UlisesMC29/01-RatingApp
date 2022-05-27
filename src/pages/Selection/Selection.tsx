@@ -1,6 +1,7 @@
 // import React from 'react'
+import { numberSelect } from '../Principal/Principal';
 import '../Selection/selection.css';
-import { numberSelect } from '../Principal/principal';
+// import { numberSelect } from '../Principal/principal';
 
 export const Selection = () => {
 
