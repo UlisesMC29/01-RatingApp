@@ -1,11 +1,8 @@
 // import React from 'react'
 // import 'module-alias/register';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Principal } from "./pages/Principal/Principal";
-import { Selection } from "./pages/Selection/Selection";
-// import { Principal } from '../pages/Principal/principal';
-// import { Selection } from '../pages/Selection/selection';
-// import { Principal } from "./pages/Principal/principal";
+import { Principal } from "./pages/Principal/principal";
+import { Selection } from "./pages/Selection/selection";
 
 function App() {
   return (
